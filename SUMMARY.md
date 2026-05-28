@@ -1,0 +1,15 @@
+# Table of contents
+
+* [NovaK Protocol — Manual do Utilizador](README.md)
+* [O que é o NovaK Protocol?](01-introducao.md)
+* [Primeiros Passos](02-primeiros-passos.md)
+* [O Hangar — Compra de Naves](03-hangar.md)
+* [Expedições](04-expedicoes.md)
+* [Constelação](05-constelacao.md)
+* [Patentes e Pins](06-patentes-pins.md)
+* [Bônus de Embarque](07-bonus-embarque.md)
+* [Bônus Constelação](08-bonus-constelacao.md)
+* [Bônus de Rede](09-bonus-residual.md)
+* [Nave Presente](10-nave-presente.md)
+* [Colectas e Spoils](11-saques.md)
+* [Glossário NovaK Protocol](12-glossario.md)

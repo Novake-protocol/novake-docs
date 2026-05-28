@@ -2,14 +2,14 @@
 
 ## O que Podes Colectar
 
-| Tipo | O que é | Quando |
-|------|---------|--------|
-| **Spoils** | Ganhos da Expedição Tripulante | Após a Expedição encerrar |
-| **Capital** | USDC original investido na Nave | No aniversário do plano (data de unlock) |
-| **Bônus de Embarque** | Bônus quando membro da tua Constelação embarca | Imediatamente após a confirmação |
-| **Bônus Constelação** | Pontos convertidos via Pin | Via claim no dashboard |
-| **Bônus de Rede** | Activado pelos Spoils dos membros directos | Cap $300/dia, $3.000/mês |
-| **Vesting $NVKE** | Tokens da participação na presale | Conforme cronograma de vesting |
+| Tipo                  | O que é                                              | Quando                                   |
+| --------------------- | ---------------------------------------------------- | ---------------------------------------- |
+| **Spoils**            | Spoils da Expedição Tripulante                       | Após a Expedição encerrar                |
+| **Capital**           | USDC original usado no embarque da Nave              | No aniversário do plano (data de unlock) |
+| **Bônus de Embarque** | Bônus quando membro da tua Constelação embarca       | Imediatamente após a confirmação         |
+| **Bônus Constelação** | Pontos convertidos via Pin                           | Via claim no dashboard                   |
+| **Bônus de Rede**     | Activado pelos Spoils do primeiro e segundo círculos | Cap $300/dia, $3.000/mês                 |
+| **Vesting $NVKE**     | Tokens da participação na presale                    | Conforme cronograma de vesting           |
 
 ## Taxa do Protocolo
 
@@ -26,9 +26,10 @@ Todas as colectas e claims têm uma taxa de protocolo que vai para o treasury �
 ## Vesting $NVKE (Participação Presale)
 
 Se participaste na presale, tens tokens em vesting:
-- **TGE** — libertados no lançamento do token
-- **Cliff** — período sem libertação
-- **Vesting linear** — libertação progressiva mensal
+
+* **TGE** — libertados no lançamento do token
+* **Cliff** — período sem libertação
+* **Vesting linear** — libertação progressiva mensal
 
 Na página `/vesting` vês o teu cronograma e podes fazer claim dos tokens disponíveis.
 
