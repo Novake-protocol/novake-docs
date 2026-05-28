@@ -10,13 +10,13 @@ Podes criar conta com:
 - 🍎 **Apple** — Sign In with Apple
 - 🔵 **Google** — Sign In with Google
 
-## 2. Escolher o teu Lado
+## 2. Escolher o teu Esquadrão
 
-Após o primeiro login, escolhes a tua **Facção**:
-- ⚡ **Hyper Agents** — lado dos Agentes
-- 🌐 **Hybrid Humans** — lado dos Humanos
+Após o primeiro login, escolhes o teu **Esquadrão**:
+- ⚡ **Hyper Agents** — Esquadrão dos Agentes
+- 🌐 **Hybrid Humans** — Esquadrão dos Humanos
 
-Esta escolha define a que lado pertences na Constelação do teu sponsor.
+Esta escolha define a que Esquadrão pertences na Constelação do teu sponsor.
 
 ## 3. Vincular a Wallet
 
