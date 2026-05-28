@@ -1,28 +1,44 @@
 ﻿# O Hangar — Embarque em Naves
 
-O Hangar é onde escolhes e embarques na tua Nave NFT. Cada Nave tem um valor em USDC e características únicas definidas pelas suas especificações operacionais.
+O Hangar é onde escolhes e embarques na tua Nave NFT. Cada Nave tem especificações únicas e desbloqueia um perfil de expedição exclusivo.
 
-## As 11 Naves
+> **Escolha sua Nave. Cada nave desbloqueia um perfil de expedição único e escala sua patente na constelação.**
 
-| Tier (EN) | Tier (PT) | Nome | Valor USDC | Conversão $NVKE |
-|-----------|-----------|------|-----------|-------------------|
-| **Probe** | Sonda | DRONE | $5 | 20 |
-| **Explorer** | Exploradora | VYRA | $10 | — |
-| **Explorer** | Exploradora | KOMET | $50 | — |
-| **Explorer** | Exploradora | NEX | $100 | — |
-| **Vanguard** | Vanguarda | AXION | $300 | — |
-| **Vanguard** | Vanguarda | PULSAR | $500 | — |
-| **Vanguard** | Vanguarda | ASTRON | $700 | — |
-| **Elite** | Elite | KRYON | $1.000 | — |
-| **Elite** | Elite | VORTIS | $1.500 | — |
-| **Legendary** | Lendária | EXODUS | $2.500 | — |
-| **Supreme** | Suprema | KRAKEN | $5.000 | 20.000 |
+## As 11 Naves — Especificações Completas
 
-> **Regra de Ouro:** UMA NAVE = UMA EXPEDIÇÃO. Após a Expedição encerrar, a Nave fica RETIRED. O NFT permanece na tua wallet para colecionar.
+| Tier (EN) | Tier (PT) | Nome | OPUS | HAIKU | SONNET | G40 | USDC | $NVKE | Total USDC |
+|-----------|-----------|------|------|-------|--------|-----|------|---------|-----------|
+| **Probe** | Sonda | DRONE | 16 | 16 | 16 | 5 |  | 20 | ,04 |
+| **Explorer** | Exploradora | VYRA | 38 | 35 | 39 | 5 |  | 40 | ,07 |
+| **Explorer** | Exploradora | KOMET | 36 | 39 | 38 | 5 |  | 200 | ,38 |
+| **Explorer** | Exploradora | NEX | 34 | 34 | 37 | 5 |  | 400 | ,75 |
+| **Vanguard** | Vanguarda | AXION | 52 | 58 | 56 | 6 |  | 1.200 | ,25 |
+| **Vanguard** | Vanguarda | PULSAR | 59 | 53 | 55 | 10 |  | 2.000 | ,75 |
+| **Vanguard** | Vanguarda | ASTRON | 57 | 57 | 54 | 14 |  | 2.800 | ,25 |
+| **Elite** | Elite | KRYON | 75 | 72 | 73 | 20 | .000 | 4.000 | .007,50 |
+| **Elite** | Elite | VORTIS | 73 | 76 | 72 | 30 | .500 | 6.000 | .511,25 |
+| **Legendary** | Lendária | EXODUS | 86 | 86 | 86 | 50 | .500 | 10.000 | .518,75 |
+| **Supreme** | Suprema | KRAKEN | 100 | 100 | 100 | 100 | .000 | 20.000 | .037,50 |
 
-## Especificações das Naves
+> **Taxa da plataforma:** 0,75% incluída no total de embarque.
 
-Cada Nave tem 4 atributos operacionais que definem as suas capacidades de missão:
+## Taglines das Naves
+
+| Nave | Tagline |
+|------|---------|
+| DRONE | *"O cosmos aguarda. Seu primeiro comando começa agora."* |
+| VYRA | *"Rápida. Silenciosa. Inevitável."* |
+| KOMET | *"Pisque e já foi."* |
+| NEX | *"Implacável. Imparável. Sua."* |
+| AXION | *"A precisão é a arma mais cruel."* |
+| PULSAR | *"Viram vir. Depois, nada."* |
+| ASTRON | *"Onde outros param, ASTRON começa."* |
+| KRYON | *"Nunca perdeu. Nem uma vez."* |
+| VORTIS | *"Nenhum rastro. Só ausência."* |
+| EXODUS | *"Comandantes não seguem. Eles comandam."* |
+| KRAKEN | *"Isso. É. KRAKEN."* |
+
+## Especificações — O que Significam
 
 | Atributo | Descrição |
 |----------|-----------|
@@ -31,16 +47,21 @@ Cada Nave tem 4 atributos operacionais que definem as suas capacidades de missã
 | **SONNET** | Alcance operacional |
 | **G40** | Capacidade de carga |
 
-> **Exemplo — DRONE (Probe/Sonda):** OPUS 16 · HAIKU 16 · SONNET 16 · G40 5
-> As Naves Supreme têm todos os atributos no máximo (100).
+## Regra de Ouro
 
-## Taxa da Plataforma
+> **UMA NAVE = UMA EXPEDIÇÃO.** Após a Expedição encerrar, a Nave fica RETIRED. O NFT permanece na tua wallet para colecionar.
 
-Taxa de **0,75%** sobre o valor da Nave — incluída automaticamente no total de embarque.
+## Como Embarcar
 
-**Exemplo:** Nave DRONE  USDC → Taxa ,04 → **Total ,04 USDC**
+1. Acede ao **Hangar** na sidebar → **Adquirir Naves**
+2. Navega pelos tiers na barra inferior: Sonda · Exploradora · Vanguarda · Elite · Lendária · Suprema
+3. Escolhe a tua Nave e verifica as especificações
+4. Clica em **EMBARCAR**
+5. Aprova o USDC na MetaMask
+6. Confirma a transação na Base L2 (~2 segundos)
+7. A Nave aparece em **Minhas Naves** com status **DOCKED**
 
-## Tiers e Visual
+## Tiers — Visual e Cores
 
 | Tier EN | Tier PT | Cor | Naves |
 |---------|---------|-----|-------|
@@ -50,13 +71,3 @@ Taxa de **0,75%** sobre o valor da Nave — incluída automaticamente no total d
 | Elite | Elite | Amarelo | KRYON, VORTIS |
 | Legendary | Lendária | Laranja | EXODUS |
 | Supreme | Suprema | Azul claro | KRAKEN |
-
-## Como Embarcar
-
-1. Acede ao **Hangar** na sidebar
-2. Navega pelos tiers na barra inferior e escolhe a Nave
-3. Verifica as especificações: OPUS · HAIKU · SONNET · G40
-4. Clica em **EMBARCAR**
-5. Aprova o USDC na MetaMask e confirma a transação
-6. Aguarda confirmação na Base L2 (~2 segundos)
-7. A Nave aparece na tua frota como **DOCKED**
