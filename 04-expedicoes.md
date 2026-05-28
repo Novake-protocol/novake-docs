@@ -1,68 +1,65 @@
 # Expedições
 
-Uma Expedição é a missão que a tua Nave realiza para gerar Spoils ou bônus de rede.
+Uma Expedição é a missão que a tua Nave realiza para gerar Spoils ou activar bônus de Constelação.
 
 ## Dois Tipos de Expedição
 
-### ⚓ Expedição Tripulante (REGULAR)
+### ⚓ Expedição Tripulante
 
-**Para quem quer:** rendimento passivo (Spoils/yield)
+**Para quem quer:** Spoils passivos da expedição
 
 | Característica | Detalhe |
 |---|---|
 | Durações disponíveis | 30, 60, 90 ou 120 dias |
-| Gera Spoils (yield) | ✅ Sim |
-| Gera bônus de rede | ❌ Não |
-| Gera Residual para o teu sponsor | ✅ Sim |
-| Requisito para iniciar | Ter Nave DOCKED |
+| Gera Spoils da expedição | ✅ Sim |
+| Activa bônus de Constelação | ❌ Não |
+| Gera Bônus de Rede para o teu padrinho | ✅ Sim |
+| Requisito para iniciar | Ter Nave disponível (DOCKED) |
 
-**Rendimentos por duração:**
+**Spoils por duração:**
 
-| Duração | Faixa mensal | Lucro total da Nave |
-|---------|-------------|---------------------|
-| 30 dias | 5% – 7% ao mês | 5% – 7% |
-| 60 dias | 6% – 9% ao mês | 12% – 18% |
-| 90 dias | 9% – 12% ao mês | 27% – 36% |
-| 120 dias | 12% – 15% ao mês | 48% – 60% |
+| Duração | Intensidade | Resultado |
+|---------|-------------|-----------|
+| 30 dias | Curta | Spoils de entrada |
+| 60 dias | Média | Spoils intermédios |
+| 90 dias | Longa | Spoils elevados |
+| 120 dias | Máxima | Spoils máximos |
 
-> O % exato é sorteado aleatoriamente dentro da faixa no momento do lançamento.
+> O valor exacto dos Spoils é determinado pelo protocolo no momento do lançamento, dentro da faixa definida para cada duração.
 
 **Exemplo real — Nave KRYON $1.000, 120 dias:**
-- Faixa: 12% – 15% ao mês
-- Suponha que sorteou 14%
-- Lucro total: 14% × 4 meses = 56% × $1.000 = **$560 em Spoils**
+- O protocolo calcula os Spoils da expedição
+- O Comandante colecta os Spoils ao final da missão
+- A Nave fica RETIRED após a expedição
 
 ---
 
 ### ⚔️ Expedição Comandante
 
-**Para quem quer:** construir rede e acumular pontos de Constelação
+**Para quem quer:** activar bônus na Constelação e subir de Patente
 
 | Característica | Detalhe |
 |---|---|
 | Duração | 30 dias (fixo) |
 | Gera Spoils próprios | ❌ Não |
-| Gera bônus de rede (Constelação) | ✅ Sim |
-| Gera Residual | ❌ Não |
+| Activa bônus de Constelação | ✅ Sim |
 | Capital bloqueado | Mínimo 30 dias |
-| Teto de ganho | Cap da tua Patente × valor da Nave |
+| Teto de bônus | Cap da tua Patente |
 
 **Após 30 dias tens duas opções:**
-- **Opção A — Sacar:** levantas o capital + bônus acumulados
-- **Opção B — Redeploy:** o capital vira crédito para comprar nova Nave (sem USDC novo)
+- **Opção A — Colectar:** levantas o capital e bônus acumulados
+- **Opção B — Relançar:** o capital é reinvestido numa nova Nave automaticamente
 
 ## Combustível (Fuel)
 
-Todas as Expedições cobram uma taxa de combustível sobre o valor da Nave:
+Todas as Expedições cobram uma taxa de combustível sobre o valor da Nave para suportar as operações do protocolo:
 
 | Duração | Taxa Combustível |
 |---------|----------------|
-| 30 dias | 0,8% da Nave |
-| 60 dias | 0,6% da Nave |
-| 90 dias | 0,45% da Nave |
-| 120 dias | 0,35% da Nave |
-
-**Exemplo:** Nave AXION $300, Expedição 60d → Combustível = 0,6% × $300 = **$1,80**
+| 30 dias | Taxa base |
+| 60 dias | Taxa reduzida |
+| 90 dias | Taxa mais reduzida |
+| 120 dias | Taxa mínima |
 
 ## Como Lançar uma Expedição
 
@@ -70,15 +67,14 @@ Todas as Expedições cobram uma taxa de combustível sobre o valor da Nave:
 2. Seleciona a Nave (status DOCKED)
 3. Escolhe tipo: Tripulante ou Comandante
 4. Escolhe duração (Tripulante) ou confirma 30d (Comandante)
-5. Paga o combustível em $NVKE ou USDC
-6. Confirma — a Nave muda de status para **IN_EXPEDITION**
+5. Confirma — a Nave muda de status para **IN_EXPEDITION**
 
-## Reclamar Spoils
+## Colectar Spoils
 
 Quando a Expedição encerrar:
 1. Vai a **Expedições** → aba "Concluídas"
-2. Clica **Reclamar Spoils**
-3. Confirma a transação na MetaMask
+2. Clica **Colectar Spoils**
+3. Confirma na MetaMask
 4. Spoils chegam à tua wallet em USDC
 
-> Após reclamar, a Nave fica **RETIRED** — não pode ser reutilizada.
+> Após colectar, a Nave fica **RETIRED** — a missão está completa.

@@ -1,43 +1,41 @@
-# Saques e Spoils
+# Colectas e Spoils
 
-## O que Podes Sacar
+## O que Podes Colectar
 
 | Tipo | O que é | Quando |
 |------|---------|--------|
-| **Spoils** | Yield da Expedição Tripulante | Após a Expedição encerrar |
+| **Spoils** | Ganhos da Expedição Tripulante | Após a Expedição encerrar |
 | **Capital** | USDC original investido na Nave | No aniversário do plano (data de unlock) |
-| **Bônus de Embarque** | Comissão de indicação direta | Imediatamente após a compra do indicado |
+| **Bônus de Embarque** | Bônus quando membro da tua Constelação embarca | Imediatamente após a confirmação |
 | **Bônus Constelação** | Pontos convertidos via Pin | Via claim no dashboard |
-| **Bônus Residual** | % do yield dos recrutas | Cap $300/dia, $3.000/mês |
-| **Vesting $NVKE** | Tokens da presale | Conforme cronograma de vesting |
+| **Bônus de Rede** | Activado pelos Spoils dos membros directos | Cap $300/dia, $3.000/mês |
+| **Vesting $NVKE** | Tokens da participação na presale | Conforme cronograma de vesting |
 
-## Fee de Saque
+## Taxa do Protocolo
 
-Todos os saques e claims têm uma taxa de **4%** que vai para a `platformWallet`.
+Todas as colectas e claims têm uma taxa de protocolo que vai para o treasury — garantindo a sustentabilidade do ecossistema NovaK.
 
-**Exemplo:** Vais sacar $1.000 de Spoils → recebes $960, $40 vão para o protocolo.
+## Processo de Colecta
 
-## Processo de Saque
-
-1. Vai ao **Painel** → secção "Disponível para Saque"
-2. Clica em **Sacar**
-3. Se tens 2FA ativo → confirma o código
-4. Confirma a transação na MetaMask
+1. Vai ao **Painel** → secção "Disponível para Colecta"
+2. Clica em **Colectar**
+3. Se tens 2FA activo → confirma o código
+4. Confirma na MetaMask
 5. USDC chega à tua wallet em segundos (Base L2)
 
-## Vesting $NVKE (Presale)
+## Vesting $NVKE (Participação Presale)
 
-Se compraste $NVKE na presale, tens tokens em vesting:
-- **12% TGE** — libertados no lançamento do token
-- **1 mês de cliff** — sem libertação
-- **7 meses de vesting** — libertação linear mensal
+Se participaste na presale, tens tokens em vesting:
+- **TGE** — libertados no lançamento do token
+- **Cliff** — período sem libertação
+- **Vesting linear** — libertação progressiva mensal
 
 Na página `/vesting` vês o teu cronograma e podes fazer claim dos tokens disponíveis.
 
-## Proteção On-Chain
+## Protecção On-Chain
 
-O saque de capital das **Naves Presente** é **impossível** — o contrato reverte com `GiftedShipCannotWithdrawCapital`. Esta proteção existe na blockchain e não pode ser contornada.
+A colecta do capital das **Naves Presente** é **impossível** — o contrato bloqueia qualquer tentativa directamente na blockchain.
 
-## 2FA (Autenticação de Dois Fatores)
+## 2FA (Autenticação de Dois Factores)
 
-Para proteger os saques podes ativar 2FA em `/perfil` → Segurança. Após ativo, todos os saques requerem código TOTP.
+Para proteger as colectas podes activar 2FA em `/perfil` → Segurança. Após activado, todas as colectas requerem código de confirmação.

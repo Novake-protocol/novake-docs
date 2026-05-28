@@ -2,51 +2,40 @@
 
 ## Patentes — Sistema de Ranking
 
-A tua Patente define o quanto capturas dos pontos Comandante da tua Constelação e o teto máximo de ganho das tuas Expedições Comandante.
+A tua Patente define o quanto capturas dos pontos Comandante da tua Constelação e o teto máximo de bônus das tuas Expedições Comandante.
 
-| Patente | Requisito | Cap Binário | Teto Comandante |
-|---------|-----------|-------------|-----------------|
-| **Cadete** | Entrar em Expedição Comandante | 20% | 20% da Nave |
-| **Sargento** | 3 diretos em Comandante + $2.000 vol nível 2 | 30% | 30% da Nave |
-| **Comandante** | 6 diretos + $6.000 vol nível 3 | 40% | 40% da Nave |
-| **Supremo** | 10 diretos + $15.000 vol nível 4 | 50% | 50% da Nave |
+| Patente | Requisito | Capacidade de Captura | Teto Comandante |
+|---------|-----------|----------------------|-----------------|
+| **Cadete** | Entrar em Expedição Comandante | Nível base | Nível base da Nave |
+| **Sargento** | 3 membros directos em Comandante + volume nível 2 | Nível intermédio | Nível intermédio |
+| **Comandante** | 6 membros directos + volume nível 3 | Nível avançado | Nível avançado |
+| **Supremo** | 10 membros directos + volume nível 4 | Nível máximo | Nível máximo |
 
-> **Futuro:** General (nível 9-10, 60%), Almirante (11-12, 70%), Marechal do Protocolo (lendário)
+> **Futuro:** General, Almirante, Marechal do Protocolo (níveis lendários)
 
-### Teto de Ganho Expedição Comandante
+### Teto de Bônus Expedição Comandante
 
-O teto limita os bônus que acumulas enquanto a Expedição Comandante está ativa:
-
-| Patente | Teto | Nave $1.000 | Nave $5.000 |
-|---------|------|-------------|-------------|
-| Cadete | 20% | $200 | $1.000 |
-| Sargento | 30% | $300 | $1.500 |
-| Comandante | 40% | $400 | $2.000 |
-| Supremo | 50% | $500 | $2.500 |
-
-**O que conta para o teto:** Bônus de Embarque + Bônus Constelação Comandante
-
-Quando o teto é atingido → tens 2 opções: **Sacar** ou **Redeploy**
+O teto define o máximo de bônus que acumulas durante uma Expedição Comandante. Quando atingido, tens as opções Colectar ou Relançar.
 
 ---
 
 ## Pins — Plano de Carreira
 
-Os Pins são conquistas que aumentam a taxa de conversão dos teus pontos de Constelação em USDC real.
+Os Pins são conquistas que aumentam o factor de conversão dos teus pontos de Constelação em USDC.
 
-| Pin | Taxa de Conversão | Como Desbloquear |
-|-----|-----------------|-----------------|
-| Esmeralda | 15% | Base (todos começam aqui) |
-| Safira | 16% | Missões do Plano de Carreira |
-| Rubi | 17% | Missões do Plano de Carreira |
-| Diamante | 18% | Missões do Plano de Carreira |
-| Black Diamond | 20% | Conquista máxima |
+| Pin | Factor | Como Desbloquear |
+|-----|--------|-----------------|
+| Esmeralda | Factor base | Ponto de entrada |
+| Safira | Factor superior | Missões do Plano de Carreira |
+| Rubi | Factor avançado | Missões do Plano de Carreira |
+| Diamante | Factor elevado | Missões do Plano de Carreira |
+| Black Diamond | Factor máximo | Conquista máxima |
 
 ### Título Combinado
 
 O teu título exibido no dApp combina Pin + Patente:
 
-> **"Black Diamond Supremo"** — conversão de 20%, cap binário 50%
+> **"Black Diamond Supremo"** — factor máximo, captura máxima
 
 ### Prêmios do Plano de Carreira
 
@@ -55,17 +44,17 @@ Ao atingir cada Pin desbloqueias prêmios físicos e digitais:
 - USDC em espécie
 - NFTs exclusivos
 
-Os prêmios ficam disponíveis para **claim** na página `/plano-de-carreira`. Tens de reivindicar manualmente — não são enviados automaticamente.
+Os prêmios ficam disponíveis para **claim** na página `/plano-de-carreira`. Tens de reivindicar manualmente.
 
 ### Visualizar Progresso
 
 Na página **Patente** (`/patente`) vês:
-- Tua Patente atual
+- Tua Patente actual
 - Progresso para a próxima Patente
-- Quantos diretos em Comandante tens
+- Quantos membros directos em Comandante tens
 - Volume acumulado por nível
 
 Na página **Plano de Carreira** (`/plano-de-carreira`) vês:
-- Teu Pin atual
+- Teu Pin actual
 - Prêmios disponíveis para claim
-- Próximos objetivos
+- Próximos objectivos

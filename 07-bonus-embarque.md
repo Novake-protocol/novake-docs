@@ -1,43 +1,43 @@
 # Bônus de Embarque
 
-O Bônus de Embarque é pago **instantaneamente** ao teu sponsor direto cada vez que compras uma Nave.
+O Bônus de Embarque é creditado **instantaneamente** ao teu padrinho cada vez que embarques numa Nave.
 
-## Quanto Recebes
+## Como Funciona
 
-| Tipo de Compra | Percentual para o Sponsor |
+Quando um membro da tua Constelação compra uma Nave, o teu Bônus de Embarque é calculado e creditado automaticamente, sem necessidade de acção da tua parte.
+
+| Tipo de Embarque | Bônus para o Padrinho |
 |---|---|
-| USDC novo (primeira compra ou nova entrada) | **5% a 8%** (aleatório dentro da faixa) |
-| Redeploy (saldo interno do protocolo) | **3% a 6%** (aleatório) |
-| VIP | **10% fixo** |
+| Entrada com USDC novo | Factor variável dentro da faixa padrão |
+| Relançamento (saldo interno) | Factor reduzido dentro da faixa |
+| VIP | Factor fixo especial |
 
-> O percentual exato é sorteado no momento da confirmação da compra — pode ser 5%, 6,3%, 7,8%, etc.
+> O factor exacto é determinado pelo protocolo no momento da confirmação — varia dentro dos parâmetros definidos para cada tipo.
 
-## Regra das Primeiras 5 Recompras
+## Regra de Activações Consecutivas
 
-Para as **primeiras 5 recompras** do mesmo indicado, o sponsor recebe o bônus integral toda vez.
+Para as **primeiras 5 activações** do mesmo membro, o padrinho recebe o bônus integral a cada vez.
 
-A partir da **6ª recompra** do mesmo indicado, entra um ciclo de 30 dias:
-- Máximo 1 Bônus de Embarque por mês, por indicado
-- Protege contra exploração do sistema
+A partir da **6ª activação** do mesmo membro, entra um ciclo de 30 dias:
+- Máximo 1 Bônus de Embarque por mês por membro
+- Protege a sustentabilidade do protocolo
 
 ## Relação com o Teto
 
 O Bônus de Embarque **conta** para o Teto de Cap da Expedição Comandante.
 
-**Exemplo:** Tens Expedição Comandante com Nave $1.000 (Cadete, teto 20% = $200). O teu indicado compra Nave $500 → recebes 7% = $35. Dos $200 do teu teto, já consumiste $35.
-
-Se o bônus ultrapassar o espaço restante no teto → paga só até o teto, excedente vai para o treasury.
+Se o bônus ultrapassar o espaço restante no teto → o protocolo paga apenas até ao teto, o excedente vai para o treasury.
 
 ## Naves Presente Não Geram Bônus
 
-Quando o admin minta uma **Nave Presente** (GIFTED) para alguém, esse evento **não gera** Bônus de Embarque para o sponsor.
+Quando o protocolo oferece uma **Nave Presente** (GIFTED) a alguém, esse evento **não gera** Bônus de Embarque para o padrinho.
 
 ## Ver Histórico
 
 Na sidebar → **Spoils** → **Bônus de Embarque** (`/bonus/embarque`)
 
 Vês o histórico completo de todos os bônus recebidos:
-- De quem (indicado)
-- Qual nave comprou
+- De quem (membro)
+- Qual nave embarcou
 - Valor em USDC
 - Data e status

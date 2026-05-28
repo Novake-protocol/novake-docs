@@ -1,27 +1,27 @@
 # Nave Presente
 
-A Nave Presente é uma Nave NFT oferecida gratuitamente pelo protocolo a utilizadores seleccionados.
+A Nave Presente é uma Nave NFT oferecida pelo protocolo a membros seleccionados — sem custo de entrada.
 
 ## Para que Serve
 
 - Activação de líderes e parceiros estratégicos
-- Recompensa por performance ou missões especiais
-- Teste real do protocolo sem capital do utilizador
+- Reconhecimento por performance ou missões especiais
+- Acesso ao protocolo sem capital inicial
 
 ## Como Funciona
 
 A Nave Presente funciona como uma Nave normal, com algumas diferenças importantes:
 
-| Comportamento | Nave Comprada | Nave Presente |
+| Comportamento | Nave Standard | Nave Presente |
 |---|---|---|
-| Paga USDC para adquirir | ✅ Sim | ❌ Não (dada pelo admin) |
-| Gera Bônus de Embarque para o sponsor | ✅ Sim | ❌ Não |
-| Gera pontos de Constelação | ✅ Sim | ❌ Não |
-| Pode sacar capital principal | ✅ Sim | ❌ Bloqueado on-chain |
-| Saque máximo de Spoils | Ilimitado (yield real) | Cap por Patente |
-| Após atingir cap | Continua ativa | Nave vai a RETIRED |
+| Custo de entrada | Valor em USDC | Gratuita (oferecida pelo protocolo) |
+| Gera Bônus de Embarque para o padrinho | ✅ Sim | ❌ Não |
+| Activa pontos de Constelação | ✅ Sim | ❌ Não |
+| Pode colectar capital principal | ✅ Sim | ❌ Bloqueado on-chain |
+| Colecta máxima de Spoils | Ilimitada | Cap por Patente |
+| Após atingir cap | Continua activa | Nave vai a RETIRED |
 
-## Caps de Saque por Patente
+## Caps de Colecta por Patente
 
 | Patente do titular | Cap máximo de Spoils |
 |---|---|
@@ -34,20 +34,14 @@ Quando o cap é atingido → a Nave vai automaticamente para **RETIRED** e a Exp
 
 ## Onde Ver
 
-Se tens uma Nave Presente, aparece na sidebar um item especial **"Nave Presente"** que leva à página `/nave-presente`.
+Se tens uma Nave Presente, aparece na sidebar o item **"Nave Presente"** que leva à página `/nave-presente`.
 
 Lá vês:
-- O estado da tua Nave GIFTED
-- Spoils disponíveis para claim
-- Quanto já retiraste vs cap disponível
-- Opção de lançar Expedição (Tripulante — sem gerar bônus de rede)
+- O estado da tua Nave
+- Spoils disponíveis para colecta
+- Quanto já colectaste vs cap disponível
+- Opção de lançar Expedição
 
-## Proteção On-Chain
+## Protecção On-Chain
 
-O contrato `NovaKTreasury` tem proteção explícita:
-
-```solidity
-error GiftedShipCannotWithdrawCapital();
-```
-
-Qualquer tentativa de sacar o capital principal de uma Nave Presente reverte na blockchain — impossível de contornar, mesmo com acesso direto ao contrato.
+O contrato `NovaKTreasury` tem protecção explícita que impede qualquer colecta do capital principal de uma Nave Presente — garantida pela blockchain, impossível de contornar.
